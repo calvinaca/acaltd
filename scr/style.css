@@ -1,18 +1,35 @@
 * {
-  margin: 0;
-  padding: 0;
+  margin: 0px;
+  padding: 1px;
 }
 
 body {
   background-color: #447485;
+}
+div {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin: red;
 }
 
 .dash {
   height: 50px;
   width: 100%;
   background: #84cfeb;
+  display: flex;
+}
+p a {
+  padding: 10px;
 }
 
 li {
-  text-align: center;
+  margin-left: 50px;
+}
+
+.container {
+  margin-top: 5px;
+  display: flex;
+}
+.Clocation {
+  align-items: center;
 }
