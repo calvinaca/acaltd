@@ -33,17 +33,30 @@ li {
   display: flex;
   padding: 3px;
   color: white;
+  border-bottom: solid cornsilk 2px;
 }
 
 .Clocation {
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  border-bottom: solid black 2px;
+}
+
+.Clocation #pin {
+  padding: 10px;
+  border: solid 2px black;
+  margin-top: 6px;
+  border-radius: 15px;
 }
 
 .Mlocation {
   font-style: italic;
+}
+
+.container button {
+  background-color: #7fffd4;
+  font-weight: bold;
+  color: #fff;
 }
 
 iframe {
@@ -53,4 +66,28 @@ iframe {
 
 .information {
   display: flex;
+  text-align: center;
+  width: auto;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.information .info-listed {
+  height: 200px;
+  width: 300px;
+  background-color: #7fffd4;
+  padding: 20px;
+  margin: 5px;
+  line-height: 20px;
+  position: relative;
+  contain: content;
+  border-radius: 10px;
+}
+
+.information .info-listed h4 {
+  font-size: 26px;
+  font-weight: bold;
+  /* font-style: oblique; */
+  padding: 10px;
 }
