@@ -5,11 +5,7 @@
 
 body {
   background-color: #447485;
-}
-div {
-  margin-top: 5px;
-  margin-bottom: 5px;
-  margin: red;
+  /* background-image: ; */
 }
 
 .dash {
@@ -17,19 +13,44 @@ div {
   width: 100%;
   background: #84cfeb;
   display: flex;
+  justify-content: center;
 }
-p a {
-  padding: 10px;
+#logo {
+  display: flex;
+  border-right: solid 2px black;
+  padding: 5px;
+  justify-content: left;
 }
 
 li {
-  margin-left: 50px;
+  margin-left: 5px;
+  display: inline;
+  justify-content: center;
 }
 
 .container {
   margin-top: 5px;
   display: flex;
+  padding: 3px;
+  color: white;
 }
+
 .Clocation {
   align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  border-bottom: solid black 2px;
+}
+
+.Mlocation {
+  font-style: italic;
+}
+
+iframe {
+  border: 3px #84cfeb;
+  height: 200px;
+}
+
+.information {
+  display: flex;
 }
