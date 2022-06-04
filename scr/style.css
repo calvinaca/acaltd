@@ -13,6 +13,7 @@ body {
   width: 100%;
   background: #84cfeb;
   display: flex;
+  text-align: center;
   justify-content: center;
 }
 #logo {
@@ -23,40 +24,50 @@ body {
 }
 
 li {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.dash #nav-list {
   margin-left: 5px;
   display: inline;
-  justify-content: center;
 }
 
 .container {
   margin-top: 5px;
   display: flex;
   padding: 3px;
-  color: white;
   border-bottom: solid cornsilk 2px;
+  position: relative;
+  /* justify-content: center; */
+  color: white;
 }
 
 .Clocation {
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
+  display: block;
 }
 
 .Clocation #pin {
-  padding: 10px;
-  border: solid 2px black;
   margin-top: 6px;
-  border-radius: 15px;
 }
 
 .Mlocation {
   font-style: italic;
+  justify-content: left;
+  margin-right: 20px;
 }
 
 .container button {
-  background-color: #7fffd4;
+  background-color: #1f426e;
   font-weight: bold;
   color: #fff;
+  border-radius: 7px;
+  padding: 5px;
+  margin: 6px;
 }
 
 iframe {
@@ -88,6 +99,6 @@ iframe {
 .information .info-listed h4 {
   font-size: 26px;
   font-weight: bold;
-  /* font-style: oblique; */
+  font-style: oblique;
   padding: 10px;
 }
