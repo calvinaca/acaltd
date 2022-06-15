@@ -12,21 +12,27 @@ body {
   height: 50px;
   width: 100%;
   background: #84cfeb;
-  display: flex;
+  /* display: flex; */
   text-align: center;
   justify-content: center;
 }
-#logo {
+.dash #logo {
   display: flex;
   border-right: solid 2px black;
   padding: 5px;
-  justify-content: left;
+  position: relative;
+  /* margin-right: auto; */
+}
+
+.dash #logo #logo-name {
+  margin-left: 1rem;
 }
 
 li {
   display: flex;
   justify-content: center;
-  position: relative;
+  /* position: relative; */
+  text-transform: uppercase;
 }
 
 .dash #nav-list {
@@ -40,15 +46,15 @@ li {
   padding: 3px;
   border-bottom: solid cornsilk 2px;
   position: relative;
-  /* justify-content: center; */
   color: white;
 }
 
-.Clocation {
+.container .Clocation {
   align-items: center;
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
-  display: block;
+  /* margin-right: auto; */
+  display: flex;
 }
 
 .Clocation #pin {
@@ -72,7 +78,7 @@ li {
 .Mlocation {
   font-style: italic;
   justify-content: left;
-  margin-right: 20px;
+  margin-left: auto;
   place-items: left;
 }
 
