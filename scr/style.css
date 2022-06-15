@@ -53,21 +53,27 @@ li {
 
 .Clocation #pin {
   margin-top: 6px;
+  font-style: italic;
+  padding: 1rem;
+}
+
+.container button {
+  background-color: #447485;
+  font-weight: bold;
+  color: #fff;
+  border-radius: 7px;
+  padding: 5px;
+  margin: 6px;
+  appearance: none;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 
 .Mlocation {
   font-style: italic;
   justify-content: left;
   margin-right: 20px;
-}
-
-.container button {
-  background-color: #1f426e;
-  font-weight: bold;
-  color: #fff;
-  border-radius: 7px;
-  padding: 5px;
-  margin: 6px;
+  place-items: left;
 }
 
 iframe {
